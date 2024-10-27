@@ -1,0 +1,42 @@
+body {
+    background-image: url('/AcNote/static/images/chaiquan.jpg');
+    background-repeat: no-repeat;
+    /* 不重复 */
+    background-position: center center;
+    /* 背景图在中心 */
+    background-size: cover;
+    /* 背景图覆盖整个区域 */
+    background-origin: border-box;
+    /* 背景图从边框开始 */
+    height: 100vh;
+    /* 使body高度为视口高度 */
+    margin: 0;
+    /* 去掉默认的边距 */
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
