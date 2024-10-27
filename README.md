@@ -10,3 +10,5 @@ git branch -M main
 git remote add origin git@github.com:HuTaoJiaZiAckerman/AcNote.git
 git push -u origin main
 ```
+## 重启nginx
+`sudo service nginx restart`
